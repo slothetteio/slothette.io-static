@@ -1,0 +1,221 @@
+/**
+
+Usage:
+```
+@value vars: '.../css/vars.css';
+@value transitionTimeAndEase from vars;
+...
+transition: color transitionTimeAndEase
+```
+
+ */
+
+.Link-2dBIL {
+    color: #1890ff;
+    text-decoration: none;
+}
+
+.Link-2dBIL:hover {
+      text-decoration: underline;
+    }
+
+.Button-3V0oU {
+  background: transparent;
+
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid transparent;
+  padding: 4px 8px;
+  transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.Button-3V0oU:hover:not(:disabled){
+  border: 1px solid #1890ff;
+  color: #1890ff;
+}
+.Button-3V0oU:disabled {
+  cursor: not-allowed;
+}
+
+.Textarea-3x_vT {
+  resize: vertical;
+  border: 1px dotted crimson;
+  font-size: 1.5rem;
+}
+
+.textarea-1CLkD {
+  border: none;
+  height: 140px;
+}
+  .textarea-1CLkD._error-Vl7tm {
+    /*outline: 5px auto red;*/
+    /*outline-offset: -2px;*/
+    background-color: #f9dfd7;
+  }
+
+.subSectionTitle-21zD7 {
+  font-style: italic;
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 30%);
+  text-align: right;
+
+}
+
+.subSectionTitle-21zD7 span {
+      background: white;
+      padding: 2px;
+      letter-spacing: -0.04em;
+    }
+
+.inner-32OQs {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: green;
+}
+
+.inner-32OQs._error-Vl7tm {
+    color: red;
+    background: yellow;
+  }
+
+.inner-32OQs._anim-VYwYD {
+    animation: atMount-3f-mV 0.6s ease-in-out;
+  }
+
+@keyframes atMount-3f-mV {
+  from {
+    color: #C07018;
+  }
+}
+
+/**
+  Included on demand by components that need some general purpose styling
+
+  This allows avoiding creating react components only for simple visual elements
+ */
+
+.subHeading-2rgBG {
+    color: hsl(18, 72%, 52%);
+    margin-top: 4px;
+}
+
+/* top level section */
+.section-MKe-D {
+    background-color: hsl(0, 0%, 96%);
+    border: 1px solid lightgray;
+    padding: 10px 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: 20px;
+}
+
+.topBar-2ve0x {
+  margin-bottom: 10px;
+}
+
+.contentWrapper--h3jk {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.emptyNotification-29n2S {
+  background-color: hsla(70, 78%, 80%, 1);
+  padding: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.numberInBase-2p9A9 {
+  font-size: 1.8rem;
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+
+.highlight-25tqy {
+  color: rgb(86, 78, 160);
+}
+
+
+.Table-DQs-7 {
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+.Table-DQs-7 th {
+    border-bottom: 1px solid black;
+  }
+
+
+.Table-DQs-7 th, .Table-DQs-7 td {
+    text-align: right;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+.row-Z-5S_:nth-child(even) td {
+  background-color: #f4f4f4;
+}
+.row-Z-5S_:nth-child(4n) td {
+  color: black
+}
+
+.row-Z-5S_ td{
+  color: gray;
+}
+.fullByteRow-3KOiJ td{
+  color: black;
+  background-color: #ebebeb !important;
+}
+
+.row-Z-5S_:hover td {
+  /*background-color: #ebebb9!important;*/
+  background-color: hsla(139, 100%, 93%, 1)!important;
+}
+
+
+.App-3SL9Q {
+    min-height: calc(100vh + 1px);
+    display: flex;
+    flex-direction: column;
+    max-width: 970px;
+    margin: 0 auto;
+
+    border: 1px solid hsl(0, 0%, 83%);
+    padding: 0 19px;
+    background: hsl(0, 0%, 100%);
+}
+.mainContent-1zyAn {
+    flex-grow: 1;
+}
+.footer-1D9vf {
+    font-size: 1.3rem;
+    margin-top: 60px;
+    flex-shrink: 0;
+    padding-bottom: 4px;
+    text-align: right;
+}
+.footer-1D9vf * {
+      margin-left: 10px;
+    }
+
+.breadcrumbs-2MyoF {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+/**
+  Global css
+  This file is always included the app/index.jsx
+ */
+
+h2 {
+  color: hsl(0, 0%, 30%);
+  margin: 0;
+}
+
+code {
+  font-family: _,monospace;
+}
+
