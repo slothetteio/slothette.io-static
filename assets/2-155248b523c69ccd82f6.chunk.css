@@ -1,0 +1,70 @@
+.Button-3V0oU {
+  background: transparent;
+
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid transparent;
+  padding: 4px 8px;
+  transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.Button-3V0oU:hover:not(:disabled){
+  border: 1px solid #1890ff;
+  color: #1890ff;
+}
+.Button-3V0oU:disabled {
+  cursor: not-allowed;
+}
+
+.textarea-1CLkD {
+  border: none;
+  height: 140px;
+}
+  .textarea-1CLkD._error-Vl7tm {
+    /*outline: 5px auto red;*/
+    /*outline-offset: -2px;*/
+    background-color: #f9dfd7;
+  }
+
+.subSectionTitle-21zD7 {
+  font-style: italic;
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 30%);
+  text-align: right;
+
+}
+
+.subSectionTitle-21zD7 span {
+      background: white;
+      padding: 2px;
+      letter-spacing: -0.04em;
+    }
+
+.inner-32OQs {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: green;
+}
+
+.inner-32OQs._error-Vl7tm {
+    color: red;
+    background: yellow;
+  }
+
+.inner-32OQs._anim-VYwYD {
+    animation: atMount-3f-mV 0.6s ease-in-out;
+  }
+
+@keyframes atMount-3f-mV {
+  from {
+    color: #C07018;
+  }
+}
+
+.Textarea-3x_vT {
+  resize: vertical;
+  border: 1px dotted crimson;
+  font-size: 1.5rem;
+}
+

@@ -1,0 +1,34 @@
+.Button-3V0oU {
+  background: transparent;
+
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid transparent;
+  padding: 4px 8px;
+  transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.Button-3V0oU:hover:not(:disabled){
+  border: 1px solid #1890ff;
+  color: #1890ff;
+}
+.Button-3V0oU:disabled {
+  cursor: not-allowed;
+}
+
+.contentWrapper--h3jk {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.emptyNotification-29n2S {
+  background-color: hsla(70, 78%, 80%, 1);
+  padding: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.topBar-2ve0x {
+  margin-bottom: 10px;
+}
+
