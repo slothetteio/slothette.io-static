@@ -17,6 +17,12 @@
   cursor: not-allowed;
 }
 
+.Textarea-3x_vT {
+  resize: vertical;
+  border: 1px dotted crimson;
+  font-size: 1.5rem;
+}
+
 .textarea-1CLkD {
   border: none;
   height: 140px;
@@ -60,11 +66,5 @@
   from {
     color: #C07018;
   }
-}
-
-.Textarea-3x_vT {
-  resize: vertical;
-  border: 1px dotted crimson;
-  font-size: 1.5rem;
 }
 
